@@ -1,3 +1,6 @@
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Terminalicon2.png"  height="120" width="120">
+
+
 
 ### Temel Git Komutları
 
@@ -149,12 +152,11 @@
 1. **Fork**: GitHub'da bir projeyi fork edin (klonlayın).
 2. **Pull Request**: Değişikliklerinizi orijinal depo sahibine geri gönderin. GitHub arayüzü üzerinden yapılır.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Terminalicon2.png"  height="120" width="120" align="left" >
+<br>
+
+# Temel Terminal Komutları 
 
 
-## Temel Terminal Komutları 
-
-<br><br>
 
 ### 1. `ls`
 **Açıklama:** Klasör içeriğini listelemek için kullanılır.
