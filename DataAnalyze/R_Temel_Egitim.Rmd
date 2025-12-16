@@ -1,0 +1,38 @@
+# R Temel Egitimi
+
+"+" =\> R terminalinde hata durumunu belirtir. <br> 3 % 5 =\> Hata uretir. R in tanimadigi operatordur.<br>
+
+```{r}
+11+11
+```
+
+-   Basit ornek \> Matematik islemleri <br>
+
+```{r}
+7 * 3
+21 - 6
+15 / 5
+```
+
+-   Kolon operatoru bir seri olusturur. <br>
+
+```{r}
+1:6
+```
+
+-   Deger atama \<- seklinde kullanilir. <br>
+
+```{r}
+a <- 1    # a ya deger atandi cikti vermez env icinde kayitlidir. 
+b <- 1:6  # b ye 1 den 6 kadar sirali deger atamasi yapar. 
+a
+b
+```
+
+-   Degisken islemleri. <br>
+
+```{r}
+a + 2 # a nin degerine 2 eklenir. 
+a
+```
+
