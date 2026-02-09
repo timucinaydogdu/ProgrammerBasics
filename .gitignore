@@ -2,3 +2,13 @@
 .Rhistory
 .RData
 .Ruserdata
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Env
+.env
+
+# macOS
+.DS_Store
