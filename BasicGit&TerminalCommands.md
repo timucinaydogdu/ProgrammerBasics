@@ -330,3 +330,28 @@ df -h  # İnsan tarafından okunabilir biçimde disk kullanımını gösterir
 du -h /path/to/directory  # Belirtilen dizinin disk kullanımını insan tarafından okunabilir biçimde gösterir
 ```
 
+**Yeni calisma ortami eklenmesi:**
+```sh
+pyeny local 3.12.2  # Python projesine ozel python versiyonu tanimlamaya yarar. 
+
+python -m verv .verv # Python projesine bagimliliklarindan kurtarir. 
+
+source .verv/bin/activate # Verv yapisini aktif eder. 
+
+pip install --upgrade pip # pip upgradelerini yapar. 
+
+pip install requests flask # Flask bagimliliklarini alir. 
+
+pip freeze > requirements.txt # Versiyonlar bagliliklarini dosyaya yazar. 
+
+brew install direnv # Klasore girince verv i otomatik aktif edecek program. 
+
+echo 'eval "(direnv hook zsh)"' >> ~/.zshrc # terminale baglantisini saglar. 
+
+source ~/,zshrc # terminali resetler
+
+cat .envrc # Cagirilacak dosya
+echo 'source .venv/bin/activate' > .envrc # Aktif etme komutu. 
+
+direnv allow # Izinleri verir
+
