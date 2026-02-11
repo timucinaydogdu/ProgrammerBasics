@@ -9,6 +9,9 @@ __pycache__/
 
 # Env
 .env
-
+.envrc
+.gitignore
+.python-version
+requirements.txt
 # macOS
 .DS_Store
